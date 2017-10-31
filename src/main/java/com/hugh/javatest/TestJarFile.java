@@ -11,8 +11,8 @@ import java.net.URL;
  *
  */
 public class TestJarFile {
-	private static String libdir = "D:/Code/server-admin/target/loan-admin-1.0/WEB-INF/lib/";
-	// private static String libdir = "D:/Program Files/apache-maven-3.5.0/repository/";
+	//private static String libdir = "D:/Code/server-admin/target/loan-admin-1.0/WEB-INF/lib/";
+	private static String libdir = "D:/Program Files/apache-maven-3.5.0/repository/";
 	private static boolean foundflag = false;
 	private static boolean delflag = false;
 
