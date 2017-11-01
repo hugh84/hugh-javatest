@@ -83,6 +83,9 @@ import org.springframework.util.ReflectionUtils;
 import org.springframework.util.StringUtils;
 
 /**
+ * 为了方便定时任务的时间在properties配置，当不需要的时候注释掉配置即可，所以修改此类
+ * 在遇到因注解参数导致的bean注入失败时，打印日志然后跳过
+ * 
  * Abstract bean factory superclass that implements default bean creation,
  * with the full capabilities specified by the {@link RootBeanDefinition} class.
  * Implements the {@link org.springframework.beans.factory.config.AutowireCapableBeanFactory}

@@ -34,6 +34,9 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
+ * gson包中默认DateTypeAdapter的日期格式是默认固定的，
+ * 但目前项目需要兼容之前的阿里json解析，所有修改了该类
+ * 
  * Adapter for Date. Although this class appears stateless, it is not.
  * DateFormat captures its time zone and locale when it is created, which gives
  * this class state. DateFormat isn't thread safe either, so this class has
